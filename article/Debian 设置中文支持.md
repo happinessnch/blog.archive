@@ -17,3 +17,7 @@ locale -a #列出现时系统所支援的区域设置
 或安装xfonts-intl-chinese输入法，最后重新打开终端或刷新设置。
 
     source /etc/profile
+    
+如果ls命令出现中文乱码，可以加上--show-control-chars试试
+
+    alias ls='ls --show-control-chars'
